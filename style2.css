@@ -1,0 +1,487 @@
+#section1
+{
+    height: 200px;
+    width: 100%;
+
+}
+.one
+{
+    height: 80px;
+    width: 100%;
+}
+
+.one marquee
+{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.two
+{
+    height: 80px;
+    width: 100%;
+}
+.two ul
+{
+    margin-left: 300px;
+    
+}
+ul li 
+{
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+    color:blueviolet;
+    margin-top: 20px;
+    transition-duration: 3s;
+    cursor: pointer;
+}
+
+.two ul li:hover
+{
+    color: brown;
+    transform: scale(1.8);
+    
+}
+.section2
+{
+    height: 400px;
+    width: 100%;
+}
+.box1
+{
+    height: 400px;
+    width: 550px;
+    
+    float: left;
+    
+}
+.box1 img
+{
+    height: 400px;
+    width: 550px;
+}
+.box1 img:hover
+{
+    transform: scale(-1.4);
+    transition-duration: 5s;
+}
+.box2
+{
+    height: 400px;
+    width: 550px;
+    float: left;
+    margin-left: 600px;
+    margin-top: -402px;
+    
+}
+.box2:hover
+{
+
+    transform: scale(.9);
+    transition-duration: 5s
+}
+.box2 h1
+{
+    font-weight: bold;
+    text-align: center;
+}
+.box2 h1:hover
+{
+     transform: scale(.9);
+     transition-duration: 5s;
+    
+}
+.box2 p
+{
+    text-align: center;
+}
+.box2 p:hover
+{
+    
+     transform: scale(.9);
+     transition-duration: 2s;
+    
+}
+.three
+{
+    height: 40px;
+    width: 150px;
+    border-style: none;
+    outline: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to left, blue,white);
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+.three:hover
+{
+    box-shadow: 3px 5px 3px 3px crimson;
+    transform: skew(20deg);
+    transition-duration: 2s;
+    color:aqua;
+}
+.section3
+{
+    height:800px;
+    width: 100%;
+    
+}
+.section3 h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+.four
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(30deg);
+    margin-top: 50px;
+    background-image: url(im2.jpg);
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.four:hover
+{
+    transform: skew(20deg) scale(.9);
+    transition-duration: 2s;
+}
+.five
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(30deg);
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url(im3.jpg);
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+    
+}
+.five:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s;
+}
+
+.six
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(30deg);
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url(im4.jpg);
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.six:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s;
+}
+
+.seven
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(30deg);
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url(im5.jpg);
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.seven:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s;
+}
+.eight
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(30deg);
+    margin-top: 70px;
+    margin-left: 2px;
+    background-image: url(im6.jpg);
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.eight:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s;
+}
+.nine
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(30deg);
+    margin-top: 70px;
+    margin-left: 40px;
+    background-image: url(im7.jpg);
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.nine:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s;
+}
+.ten
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(30deg);
+    margin-top: 70px;
+    margin-left: 60px;
+    background-image: url(im8.jpg);
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.ten:hover
+{
+    transform: skew(20deg) scale(.9);
+    transition-duration: 2s ;
+}
+.eleven
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(30deg);
+    margin-top: 70px;
+    margin-left: 40px;
+    background-image: url(im1.jpg);
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.eleven:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s ;
+}
+.section4
+{
+    height:800px;
+    width: 100%;
+    
+}
+.section4 h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+.section4:hover
+{
+    transform:scale(.8);
+    transition-duration: 2s;
+}
+.thirteen
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(70deg);
+    margin-top: 70px;
+    border:1px solid red;
+    margin-left: 40px;
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.thirteen img
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+}
+.thirteen:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s ;
+}
+.fourteen
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(70deg);
+    margin-top: 70px;
+    margin-left: 40px;
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.fourteen img
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+}
+.fourteen:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s ;
+}
+.fifteen
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(70deg);
+    margin-top: 70px;
+    margin-left: 40px;
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.fifteen img
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+}
+.fifteen:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s ;
+}
+.sixteen
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(70deg);
+    margin-top: 70px;
+    margin-left: 40px;
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.sixteen img
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.sixteen:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s ;
+}
+.seventeen
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(70deg);
+    margin-top: 70px;
+    margin-left: 40px;
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.seventeen  img
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+}
+.seventeen:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s ;
+}
+.eighteen
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(70deg);
+    margin-top: 70px;
+    margin-left: 40px;
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.eighteen  img
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+}
+.eighteen:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s ;
+}
+.nineteen
+{
+    height: 300px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(70deg);
+    margin-top: 70px;
+    margin-left: 40px;
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.nineteen  img
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+}
+.nineteen:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s ;
+}
+.twenty
+{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    border-radius: 30px;
+    transform: rotate(70deg);
+    margin-top: 70px;
+    margin-left: 40px;
+    box-shadow: 3px 5px 3px 3px cyan;
+    float: left;
+}
+.twenty img
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+}
+.twenty:hover
+{
+    transform: skew(20deg)scale(.9);
+    transition-duration: 2s ;
+}
+h2
+{
+    text-align: center;
+}
